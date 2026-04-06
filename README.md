@@ -1,1 +1,3 @@
-# sentiment_analysis_of_responses
+# 5400 Final Project
+
+Ihsan Alaeddin, Christy Hsu

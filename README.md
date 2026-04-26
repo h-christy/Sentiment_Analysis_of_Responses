@@ -18,28 +18,6 @@ nlp_project/
 
 ---
 
-## Dependency Graph
-
-```
-data_loader  ──────────────────────────────────┐
-     │                                          │
-     ├──► baseline_model ──► visualize          │
-     │                                          │
-     ├──► bilstm_model   ──► visualize          │
-     │                                          │
-     └──► bert_sentiment_model                  │
-                                                │
-berkeley_model ──► visualize                    │
-                                                │
-twitter_inference ──► bert_sentiment_model      │
-                  ──► berkeley_model            │
-                                                │
-chatgpt_inference ──► bert_sentiment_model      │
-                  ──► berkeley_model            │
-```
-
----
-
 ## Running Each Stage
 
 ### 1 — Baseline (TF-IDF)

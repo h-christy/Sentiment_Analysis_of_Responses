@@ -1,7 +1,5 @@
 # NLP Sentiment & Toxicity Pipeline
 
-Refactored from `NLP_Work.ipynb` into modular Python scripts.
-
 ---
 
 ## File Structure
